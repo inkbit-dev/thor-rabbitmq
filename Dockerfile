@@ -9,4 +9,5 @@ FROM rabbitmq:3.5
 RUN rabbitmq-plugins enable --offline rabbitmq_management
 
 # Expose the management port
+EXPOSE 5672
 EXPOSE 15672
